@@ -1,5 +1,4 @@
-# pt3player
-pt3player
+![Alt text](img/main.jpeg?raw=true "main window")
 
 # EN:
 Please note, this is written using AI.
@@ -19,8 +18,8 @@ Channel map modes:
 
 ## Использование: playpt3.exe [--channel-map режим] <file.pt3>.
 Режимы карты каналов:
-  * default — стандартные 3 канала (A, B, C) как сейчас
-  * split-all — каждый канал разделяется на тон, шум, огибающую (до 9 суб-каналов)
-  * compact — разделение на: тоны (все), шумы (все), огибающие (все) — 3 группы
-  * minimal — разделение на: мелодия (тон без envelope), басы/эффекты (с envelope), шум — 3 группы
-  * buzzer-split — отделяет каналы с buzzer-эффектом (быстрая envelope) от обычных
+  default      - стандартные 3 канала (A, B, C) как сейчас
+  split-all    - каждый канал разделяется на тон, шум, огибающую (до 9 суб-каналов)
+  compact      - разделение на: тоны (все), шумы (все), огибающие (все) — 3 группы
+  minimal      - разделение на: мелодия (тон без envelope), басы/эффекты (с envelope), шум — 3 группы
+  buzzer-split - отделяет каналы с buzzer-эффектом (быстрая envelope) от обычных
